@@ -12,7 +12,7 @@ marketing d'une plateforme e-commerce brésilienne ?
 ## 🗂️ Dataset
 
 - **Source** : [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
-- **Volume** : 33 clients, 40 commandes, 15 produits, 48 articles
+- **Volume** : 200 clients, 200 commandes, 204 produits, 236 articles
 - **Période** : Janvier 2024 — Août 2024
 
 ## 🏗️ Architecture du projet
