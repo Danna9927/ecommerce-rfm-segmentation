@@ -161,7 +161,7 @@ if __name__ == "__main__":
     conn   = get_connection()
     df     = load_data(conn)
     rate   = get_exchange_rate(base_currency="BRL", target_currency="EUR")
-    rfm_df = compute_rfm(df, reference_date=datetime(2024, 9, 1))
+    rfm_df = compute_rfm(df, reference_date=datetime(2018, 10, 1))
     rfm_df = enrich_with_currency(rfm_df, rate)
     save_rfm_to_db(conn, rfm_df)
     print_summary(rfm_df)

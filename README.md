@@ -13,7 +13,7 @@ marketing d'une plateforme e-commerce brésilienne ?
 
 - **Source** : [Olist Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 - **Volume** : 200 clients, 200 commandes, 204 produits, 236 articles
-- **Période** : Janvier 2024 — Août 2024
+- **Période** : 2016 — 2018
 
 ## 🏗️ Architecture du projet
 
@@ -46,6 +46,7 @@ marketing d'une plateforme e-commerce brésilienne ?
    - F (Fréquence) : nombre de commandes distinctes
    - M (Montant) : total dépensé
    - Scoring par quartiles (1-4) → score global (3-12)
+   - Date de référence RFM : Octobre 2018
 5. **Segmentation** : Champions / Loyal / Potentiel / Nouveaux clients / Dormants / A risque
 6. **Écriture** des résultats dans la table `rfm_segments`
 
